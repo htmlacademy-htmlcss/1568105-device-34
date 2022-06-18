@@ -20,28 +20,42 @@
           <button type="submit">Найти</button>
         </form>
 
-        <ul class="navigation-list navigation-user">
-          <li class="navigation-item"><!-- href="#" -->
-            <a class="navigation-link" href="#" title="Вход в личный кабинет.">Войти</a></li>
-          <li class="navigation-item">
-            <a class="navigation-link visually-hidden" href="#" title="Выход из личного кабинета">Выйти</a></li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#" title="Сравнение товаров">Сравнить</a></li>
+        <ul class="navigation-user-list">
+          <li class="navigation-user-item"><!-- href="#" -->
+            <a class="navigation-user-link visually-hidden" href="#" title="Вход в личный кабинет.">Войти</a>
+          </li>
 
-          <li class="navigation-item basket">
-            <a class="navigation-link" href="#"><span class="goods-value">2</span>Корзина</a>
+          <li class="navigation-user-item">
+            <a class="navigation-user-link" href="#" title="Выход из личного кабинета">Выйти</a>
+          </li>
+
+          <li class="navigation-user-item">
+            <a class="navigation-user-link" href="#" title="Сравнение товаров">Сравнить</a>
+          </li>
+
+          <li class="navigation-user-item basket">
+            <span class="goods-value">2</span>
+            <a class="navigation-user-link" href="#">
+              Корзина
+            </a>
+
             <div class="basket-popover visually-hidden">
               <ul class="basket-popover-list">
                 <li class="basket-popover-item">
-                  <span class="remove">
-                    <span class="visually-hidden">Удалить из корзины</span></span>
-                  <a title="Переход на карточку товара. Ссылка будет добавлена позже">Любительская селфи-палка</a></li>
+                  <a class="basket-popover-link" href="catalog.html" title="Переход на карточку товара.">Любительская селфи-палка</a>
+                  <button class="button remove">
+                    <span class="visually-hidden">Удалить из корзины</span>
+                  </button>
+                </li>
 
                 <li class="basket-popover-item">
-                  <span class="remove">
-                    <span class="visually-hidden">Удалить из корзины</span></span>
-                  <a title="Переход на карточку товара. Ссылка будет добавлена позже">Профессиональная селфи-палка</a></li>
+                  <a class="basket-popover-link" href="#" title="Переход на карточку товара.">Профессиональная селфи-палка</a>
+                  <button class="button remove">
+                    <span class="visually-hidden">Удалить из корзины</span>
+                  </button>
+                </li>
               </ul>
+
               <dl>
                 <dt>Товаров:</dt>
                 <dd>2</dd>
@@ -91,13 +105,13 @@
           </ul>
         </div>
 
-        <ul class="navigation-list menu">
-          <li class="navigation-item"><!-- href="#" -->
-            <a class="navigation-link" title="Переход на карточку товара. Ссылка будет добавлена позже">Доставка</a></li>
-          <li class="navigation-item">
-            <a class="navigation-link" title="Переход на страницу гарантии. Ссылка будет добавлена позже">Гарантия</a></li>
-          <li class="navigation-item">
-            <a class="navigation-link" title="Переход в контакты. Ссылка будет добавлена позже">Контакты</a></li>
+        <ul class="navigation-menu-list">
+          <li class="navigation-menu-item"><!-- href="#" -->
+            <a class="navigation-menu-link" title="Переход на карточку товара. Ссылка будет добавлена позже">Доставка</a></li>
+          <li class="navigation-menu-item">
+            <a class="navigation-menu-link" title="Переход на страницу гарантии. Ссылка будет добавлена позже">Гарантия</a></li>
+          <li class="navigation-menu-item">
+            <a class="navigation-menu-link" title="Переход в контакты. Ссылка будет добавлена позже">Контакты</a></li>
         </ul>
       </nav>
     </header>
