@@ -2,7 +2,7 @@
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 400; /*regular*/
-	src: url("???") formar("woff2");
+	src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
 	font-display: swap;
 }
 
@@ -10,7 +10,7 @@
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700; /*bold*/
-	src: url("???") formar("woff2");
+	src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
 	font-display: swap;
 }
 
@@ -18,6 +18,6 @@
 	font-family: 'Ralevay';
 	font-style: normal;
 	font-weight: 800; /*extra-bold*/
-	src: url("???") formar("woff2");
+	src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
 	font-display: swap;
 }
