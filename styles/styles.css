@@ -17,7 +17,7 @@
 }
 
 @font-face {
-	font-family: 'Ralevay';
+	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 800; /*extra-bold*/
 	src: url("../fonts/raleway/raleway-800.woff2")
@@ -25,13 +25,24 @@
 	font-display: swap;
 }
 
-body { 
+body {
+	margin: 0;
 	font-family: "Rubik", sans-serif;
+	font-style: normal;
 	font-size: 18px;
+	font-weight: 400;
 	line-height: 30px;
 	color: #444;
 	background-color: #fff;
 }
+
+/*.header1 {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	color: #000;
+}*/
 
 
 .page-header {
@@ -42,11 +53,8 @@ body {
 .navigation-user-link {
 	text-decoration: none;
 	text-align: center;
+	color: #000;
 }
-
-/*.navigation-catalog {
-	background-color: inherit;
-}*/
 
 .navigation-catalog-link {
 	font-size: 16px;
@@ -61,7 +69,7 @@ body {
 	font-weight: 800;
 	line-height: 21px;
 	text-transform: uppercase;
-	/*letter-spacing: 0.2em;*/
+	letter-spacing: 0.2em;
 	color: #000;
 	text-align: center;
 }
@@ -70,8 +78,12 @@ body {
 	background-color: #fff;
 }
 
-.slider {
-
+.slider-item-header {
+	font-family: 'Raleway', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 50px;
 }
 
 .slider-link {
@@ -83,6 +95,172 @@ body {
 	color: #000;
 	text-align: center;
 }
+
+.catalog {
+	background-color: #fff;
+}
+
+.catalog-item {
+	width: 160px;
+	height: 160px;
+	color: #000;
+	background-color: #FFE17F;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.catalog-item:nth-of-type(1) {
+	background-image: url('../images/Vector.svg');
+}
+
+.catalog-item:nth-of-type(2) {
+	background-position: 50% 100%;
+	background-image: url('../images/Vector-1.svg');
+}
+
+.catalog-item:nth-of-type(3) {
+	background-image: url('../images/Vector-2.svg');
+}
+
+.catalog-item:nth-of-type(4) {
+	background-image: url('../images/Vector-3.svg');
+}
+
+.catalog-item:nth-of-type(5) {
+	background-image: url('../images/Vector-4.svg');
+}
+
+.catalog-item:nth-of-type(6) {
+	background-image: url('../images/Vector-5.svg');
+}
+
+.catalog-item-link {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	text-decoration: none;
+}
+
+.service-list {
+	background-color: #F0F0F0;
+}
+
+.service-buttons-link {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	color: #000;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.service-buttons-link-active {
+	color: #FFE17F;
+}
+
+.service-title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 50px;
+	color: #000;
+}
+
+.service-rare-inner {
+	background-color: #F0F0F0;
+}
+
+.service-rare-link {
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+.about-title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.about-list {
+	list-style: none;
+}
+
+.about-item-text {
+	background: url('../images/about-bullet.svg') no-repeat 0 50%;
+	padding-left: 26px;
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	color: #000;
+}
+
+.about-link {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+
+.contacts-title {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.contacts-subtitle {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.contacts-address-text {
+	font-style: normal;
+}
+
+.contacts-phone {
+	font-style: normal;
+	color: #444;
+}
+
+.contacts-button {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+
+
+
 
 
 
