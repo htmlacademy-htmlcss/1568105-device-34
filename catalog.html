@@ -10,7 +10,7 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a class="page-header-logo" id="page-header-logo">
+        <a class="page-header-logo" href="index.html">
           <img src="images/page-header-logo.svg" width="145" height="36" alt="Логотип магазина «Девайс»">
         </a>
 
@@ -133,173 +133,191 @@
       </nav>
     </header>
 
-    <main class="main-inner">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Моноподы для селфи</h1>
-        <ol class="breadcpumbs">
-          <li class="breadcpumbs-item">
-            <a class="breadcpumbs-link" href="#">Главная</a>
-          </li>
-          
-          <li class="breadcpumbs-item">
-            <a class="breadcpumbs-link" href="#">Каталог товаров</a>
-          </li>
-          
-          <li class="breadcpumbs-item">
-            <a class="breadcpumbs-link">Моноподы для селфи</a>
-          </li>
-        </ol>
-      </header>
-
-      <section class="catalog-products">
-        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-        <p class="catalog-sort-filter">фильтр:</p>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Стоимость</legend>
-            <label class="price-range">от 0
-              <input type="range" min="0" max="9000" step="1" value="5000">до 5000</label>
-          </fieldset>
-
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Цвет</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="black" checked>
-                  Черный
-                </label>
-              </li>
-
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="white" checked>
-                  Белый
-                </label>
-              </li>
-
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="blue">
-                  Синий
-                </label>
-              </li>
-
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="red">
-                  Красный
-                </label>
-              </li>
-
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="rose">
-                  Розовый
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Bluetooth</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" id="yeah" name="bluetooth" value="Есть" checked>
-                  Есть
-                </label>
-              </li>
-
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" id="none" name="bluetooth" value="Нет">
-                  Нет
-                </label>
-              </li>
-            </ul>
-          </fieldset>
-          <button class="catalog-filter-button" type="submit">Показать</button>
-        </form>
-
-        <p class="catalog-sort-filter">сортировка:</p>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="popular">Популярные</option>
-        </select>
-
-        <ul class="flip-list">
-          <li class="flip-item">
-            <button class="flip-button flip-back" type="button">
-              <span class="visually-hidden">Листать назад</span>
-            </button>
-          </li>
-          <li class="flip-item">
-            <button class="flip-button flip-forward" type="button">
-              <span class="visually-hidden">Листать вперёд</span>
-            </button>
-          </li>
-        </ul>
-
-
-        <ul class="product-card-list">
-          <li class="product-card-item new-product"><!-- <a class="product-card-link" href="#"></a> -->
-            <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
-            <img class="product-card-image" src="images/product-2.jpg" width="360" height="380" alt="Любительская селфи-палка">
-            <h3 class="product-card-name">Любительская селфи-палка</h3>
-            <b class="product-card-price">500 ₽</b>
-
-          </li>
-
-          <li class="product-card-item new-product">
-            <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
-            <img class="product-card-image" src="images/product-2-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
-            <h3 class="product-card-name">Профессиональная селфи-палка</h3>
-            <b class="product-card-price">1 500 ₽</b>
-          </li>
-
-          <li class="product-card-item new-product">
-            <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
-            <img class="product-card-image" src="images/product-2-2.jpg" width="360" height="380" alt="Любительская селфи-палка">
-            <h3 class="product-card-name">Непотопляемая селфи-палка</h3>
-            <b class="product-card-price">2 500 ₽</b>
-          </li>
-
-          <li class="product-card-item new-product">
-            <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
-            <img class="product-card-image" src="images/product-2-3.jpg" width="360" height="380" alt="Любительская селфи-палка">
-            <h3 class="product-card-name">Селфи-палка «Следуй за мной»</h3>
-            <b class="product-card-price">1 500 ₽</b>
-          </li>
-        </ul>
-
-        <button class="pagination-button-show-more" type="button">Загрузить ещё</button>
-        <div class="pagination">
-          <button class="pagination-button back" type="button">Назад</button>
-          <button class="pagination-button forward" type="button">Вперёд</button>
-
-          <ul class="pagination-list">
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">1</a>
+    <main class="main-inner main-container">
+      <div class="page-container">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Моноподы для селфи</h1>
+          <ol class="breadcpumbs">
+            <li class="breadcpumbs-item">
+              <a class="breadcpumbs-link" href="#">Главная</a>
             </li>
-
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
+            
+            <li class="breadcpumbs-item">
+              <a class="breadcpumbs-link" href="#">Каталог товаров</a>
             </li>
-
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
+            
+            <li class="breadcpumbs-item">
+              <a class="breadcpumbs-link">Моноподы для селфи</a>
             </li>
+          </ol>
+        </header>
 
-            <li class="pagination-item">
-              <a class="pagination-link">...</a>
-            </li>
+        <section class="catalog-products">
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+          <div class="catalog-products-filter-container">
+            <p class="catalog-sort-filter">фильтр:</p>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Стоимость</legend>
+                <label class="price-range">от 0
+                  <input type="range" min="0" max="9000" step="1" value="5000">до 5000</label>
+              </fieldset>
 
-            <li class="pagination-item">
-              <a class="pagination-link" href="#">15</a>
-            </li>
-          </ul>
-        </div>
-      </section>
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Цвет</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="black" checked>
+                      Черный
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="white" checked>
+                      Белый
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="blue">
+                      Синий
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="red">
+                      Красный
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="checkbox" name="rose">
+                      Розовый
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Bluetooth</legend>
+                <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" id="yeah" name="bluetooth" value="Есть" checked>
+                      Есть
+                    </label>
+                  </li>
+
+                  <li class="catalog-filter-item">
+                    <label class="control">
+                      <input class="control-input" type="radio" id="none" name="bluetooth" value="Нет">
+                      Нет
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+              <button class="catalog-filter-button" type="submit">Показать</button>
+            </form>
+          </div>
+
+          <div class="catalog-center-container">
+            <div class="catalog-sort-filter-container">
+              <p class="catalog-sort-filter">сортировка:</p>
+              <select class="select-control" aria-label="Сортировка">
+                <option value="popular">Популярные</option>
+              </select>
+
+              <ul class="flip-list">
+                <li class="flip-item">
+                  <button class="flip-button flip-back" type="button">
+                    <span class="visually-hidden">Листать назад</span>
+                  </button>
+                </li>
+                <li class="flip-item">
+                  <button class="flip-button flip-forward" type="button">
+                    <span class="visually-hidden">Листать вперёд</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="product-card-list-container">
+              <ul class="product-card-list">
+                <li class="product-card-item new-product"><!-- <a class="product-card-link" href="#"></a> -->
+                  <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
+                  <img class="product-card-pic" src="images/product-2.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="product-card-info">
+                    <h3 class="product-card-name">Любительская<br>селфи-палка</h3>
+                    <b class="product-card-price">500 ₽</b>
+                  </div>
+                </li>
+
+                <li class="product-card-item new-product">
+                  <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
+                  <img class="product-card-pic" src="images/product-2-1.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="product-card-info">
+                    <h3 class="product-card-name">Профессиональная<br>селфи-палка</h3>
+                    <b class="product-card-price">1 500 ₽</b>
+                  </div>
+                </li>
+
+                <li class="product-card-item new-product">
+                  <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
+                  <img class="product-card-pic" src="images/product-2-2.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="product-card-info">
+                    <h3 class="product-card-name">Непотопляемая<br>селфи-палка</h3>
+                    <b class="product-card-price">2 500 ₽</b>
+                  </div>
+                </li>
+
+                <li class="product-card-item new-product">
+                  <a class="product-card-more-info visually-hidden" href="#">Подробнее</a>
+                  <img class="product-card-pic" src="images/product-2-3.jpg" width="360" height="380" alt="Любительская селфи-палка">
+                  <div class="product-card-info">
+                    <h3 class="product-card-name">Селфи-палка «Следуй<br>за мной»</h3>
+                    <b class="product-card-price">1 500 ₽</b>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pagination-container">
+            <button class="pagination-button-show-more" type="button">Загрузить ещё</button>
+              <div class="pagination">
+                <button class="pagination-button back" type="button">Назад</button>
+                <button class="pagination-button forward" type="button">Вперёд</button>
+
+                <ul class="pagination-list">
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">1</a>
+                  </li>
+
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">2</a>
+                  </li>
+
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">3</a>
+                  </li>
+
+                  <li class="pagination-item">
+                    <a class="pagination-link">...</a>
+                  </li>
+
+                  <li class="pagination-item">
+                    <a class="pagination-link" href="#">15</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
 
         <footer class="page-footer">

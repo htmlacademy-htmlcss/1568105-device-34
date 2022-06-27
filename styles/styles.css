@@ -574,17 +574,12 @@ body {
 	line-height: 20px;
 	font-style: normal;
 	color: #fff;
-/*	margin: 0;
-	padding: 0;*/
 }
 
 .page-footer-academy-logo {
 	display: block;
 	margin: 0;
 	padding: 0;
-}
-
-.footer-academy-logo {
 }
 
 /* main-inner */
@@ -609,6 +604,9 @@ body {
 
 .catalog-products {
 	background-color: #f0f0f0;
+	display: flex;
+	width: 1160px;
+	margin: 0 auto;
 }
 
 .catalog-filter-title {
@@ -628,6 +626,24 @@ body {
 	font-size: 16px;
 	line-height: 19px;
 	color: #000;
+}
+
+.catalog-products-filter-container {
+	width: 320px;
+}
+
+.catalog-sort-filter-container {
+	display: flex;
+	justify-content: space-between;
+	width: 840px;
+	padding-left: 40px;
+	padding-right: 30.5px;
+}
+
+.flip-list {
+	display: flex;
+	margin: 0;
+	padding: 0;
 }
 
 .catalog-sort-filter {
@@ -654,6 +670,39 @@ body {
 	border: none;
 	background: none;
 	cursor: pointer;
+}
+
+.product-card-list-container {
+	background-color: #fff;
+}
+
+.product-card-list {
+	width: 840px;
+	padding-top: 70px;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.product-card-item {
+	width: 360px;
+	/*height: 452px;*/
+	margin-right: 40px;
+}
+
+.product-card-pic {}
+
+.product-card-info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 32px;
+	margin-bottom: 44px;
+}
+
+.product-card-name {
+	/*display: inline-block;*/
+	margin: 0;
+	padding: 0;
 }
 
 .product-card-more-info {
