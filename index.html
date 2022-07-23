@@ -6,7 +6,180 @@
   <title>Девайс</title>
   <link rel="icon" type="image/icon" href="favicon.ico">
 </head>
+
 <body>
-  
+  <header class="page-header">
+    <nav class="page-header-nav">
+      <a class="page-header-logo" title="Логотип на главной странице">
+        <img class="page-header-logo-pic" src="" alt="Логотип.">
+      </a>
+
+      <form class="page-header-search" action="https://echo.htmlacademy.ru/" method="get">
+        <label class="visually-hidden">Поиск товаров на сайте
+          <input class="page-header-search-input" type="text" placeholder="Текст поиска">
+        </label>
+        <button class="page-header-search-button" type="submit">Найти</button>
+      </form>
+
+      <span class="page-header-user-icon"></span>
+      <a class="page-header-user-login" href="#" title="Вход в личный кабинет">Войти</a>
+      <a class="page-header-username" href="#" title="Коля Петухов">Коля Петухов</a>
+      <a class="page-header-user-logout" href="#" title="Выход">Выйти</a>
+
+      <span class="page-header-compare-icon"></span>
+      <a class="page-header-compare-link" href="#" title="Сравнить">Сравнить</a>
+
+      <span class="page-header-bin-goodsvalue">2</span>
+      <span class="page-header-bin-icon"></span>
+      <a class="page-header-bin-link" href="#" title="Корзина">Корзина</a>
+
+      <a class="page-header-catalog-title" href="#">Каталог товаров
+        <span class="page-header-catalog-icon"></span>
+      </a>
+      <ul class="page-header-catalog-list"><!-- спрятан до нажатия на Каталог товаров -->
+        <li class="page-header-catalog-item">
+          <ul class="page-header-subcatalog">
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Виртуальная реальность</a>
+            </li>
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Моноподы для cелфи</a>
+            </li>
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Экшн-камеры</a>
+            </li>
+          </ul>
+        </li>
+        <li class="page-header-catalog-item">
+          <ul class="page-header-subcatalog">
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Фитнес-браслеты</a>
+            </li>
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Умные часы</a>
+            </li>
+          </ul>
+        </li>
+        <li class="page-header-catalog-item">
+          <ul class="page-header-subcatalog">
+            <li class="page-header-subcatalog-item">
+              <a class="page-header-subcatalog-link" href="#">Квадрокоптеры</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="page-header-menu">
+        <li class="page-header-menu-item">
+          <a class="page-header-menu-link" href="#">Доставка</a>
+        </li>
+        <li class="page-header-menu-item">
+          <a class="page-header-menu-link" href="#">Гарантия</a>
+        </li>
+        <li class="page-header-menu-item">
+          <a class="page-header-menu-link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">Добро пожаловать в Девайс - магазин товаров из будущего!</h1>
+
+    <section class="slider">
+      <h2 class="visually-hidden">Слайдер</h2>
+
+      <ul class="slider-list">
+        <li class="slider-item">
+          <img src="" alt="Квадрокоптер.">
+          
+          <h3 class="slider-item-title">
+            <span class="slider-item-numder">01</span>
+            Порхает как бабочка,<br>жалит как пчела!
+          </h3>
+          <p class="slider-item-text">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+
+          <a class="slider-item-button" href="#">Подробнее</a>
+
+          <dl class="slider-item-details">
+            <dt class="slider-item-details-title">Дальность полета</dt>
+            <dd class="slider-item-details-data">800 м</dd>
+
+            <dt class="slider-item-details-title">Радиус поражения</dt>
+            <dd class="slider-item-details-data">50 м</dd>
+          </dl>
+        </li>
+
+        <li class="slider-item">
+          <img src="" alt="Мотивирующий фитнес-браслет.">
+          
+          <h3 class="slider-item-title">
+            <span class="slider-item-numder">02</span>
+            Худеем<br>правильно!
+          </h3>
+          <p class="slider-item-text">Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+
+          <a class="slider-item-button" href="#">Подробнее</a>
+
+          <dl class="slider-item-details">
+            <dt class="slider-item-details-title">Без подзарядки</dt>
+            <dd class="slider-item-details-data">48 часов</dd>
+          </dl>
+        </li>
+
+        <li class="slider-item">
+          <img src="" alt="Самая длинная палка для селфи.">
+          
+          <h3 class="slider-item-title">
+            <span class="slider-item-numder">03</span>
+            Делай селфи,<br>как Бен Стиллер!
+          </h3>
+          <p class="slider-item-text">Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.</p>
+
+          <a class="slider-item-button" href="#">Подробнее</a>
+
+          <dl class="slider-item-details">
+            <dt class="slider-item-details-title">Длина палки</dt>
+            <dd class="slider-item-details-data">8,5 м</dd>
+
+            <dt class="slider-item-details-title">Вес палки</dt>
+            <dd class="slider-item-details-data">5 кг</dd>
+
+            <dt class="slider-item-details-title">Материал</dt>
+            <dd class="slider-item-details-data">Карбон</dd>
+          </dl>
+        </li>
+      </ul>
+
+      <button class="slider-button slider-prev">
+        <span class="visually-hidden">Предыдущее фото</span>
+      </button>
+      <button class="slider-button slider-next">
+        <span class="visually-hidden">Следующее фото</span>
+      </button>
+
+      <ol class="slider-pagination">
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button slider-pagination-button-current">
+            <span class="visually-hidden">1 слайд</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button">
+            <span class="visually-hidden">2 слайд</span>
+          </button>
+        </li>
+        <li class="slider-pagination-item">
+          <button class="slider-pagination-button">
+            <span class="visually-hidden">3 слайд</span>
+          </button>
+        </li>
+      </ol>
+    </section>
+
+    
+  </main>
+
+  <footer></footer> 
 </body>
 </html>
